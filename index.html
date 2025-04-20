@@ -1,343 +1,272 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Freakin Cool Resume</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.min.css">
-	<style type="text/css">
-		body{
-			padding:0 0;
-			margin:0 0; 
-			font-family: 'Tw Cen MT';
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Stacked HTML CSS Template</title>
+<!--
+Stacked Template
+https://templatemo.com/tm-505-stacked
+-->
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-		}
-		.header {
-		  background: #7dae77;
-		  text-align: center;
-		  min-height: 500px;
-		}
-		.header img {
-		  margin-top: 7em;
-		}
-		.header h1 {
-		  font-family: 'Tw Cen MT';
-		  font-weight: bold;
-		  font-size: 4em;
-		  text-transform: capitalize;
-		  color: white;
-		  padding: 0.5em 0 0 0;
-		}
-		.header p{
-			font-family: 'Tw Cen MT';
-			color: white;
-			font-size: 2em;
-		}
-		.content-section {
-			padding: 1em;
-			background: url('img/bg1.jpg') no-repeat center center fixed;
-		}
-		.content-section h3 {
-			font-family: 'Tw Cen MT';
-			font-weight: bold;
-			font-size: 2.5em;
-		}
-		.content-item {
-			margin: 1em 0em;
-			background-color: #daecd8;
-			padding: 2em;
-			opacity: 0.9;
-		}
-		.content-item p{
-			font-size: 1.5em;
-			font-family: 'Tw Cen MT';
-		}
-		.content-item li{
-			font-size: 1.2em;
-		}
-		.content-items {
-			margin: 1em 0em;
-			background-color: #daecd8;
-			padding: 2em;
-		}
-		.content-items p{
-			font-size: 1.5em;
-			font-family: 'Tw Cen MT';
-		}
-		.content-items li{
-			font-size: 1.2em;
-		}
-		.progress-bar {
-			background-color: #66cc6e;
-		}
-		.port-grid {
-		    background: #f7f7f7;
-		    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
-		    text-align: center;
-		    position: relative;
-		}
-		.port-title{
-			padding: 2em;
-		}
-		.port-item{
-			margin: 1em 0em;
-			position: relative;
-		}
-		.port-grid h4{
-			font-family: 'Tw Cen MT';
-		}
-		.port-grid p{
-			font-family: 'Tw Cen MT';
-			font-size: 1em;
-		}
-		.google-map iframe {
-		  width: 100%;
-		  height: 500px;
-		  border: 0;
-		}
-		.footer-section{
-			padding:2em 0;
-			text-align:center;
-			background:#7dae77;
-		}
-		.footer-bottom {
-			margin-top: 1em;
-		}
-		.footer-top p {
-			font-size: 1.4em;
-			color: white;
-			font-weight: 400;
-		}
-		.footer-top  a {
-			font-size: 1em;
-			color:white;
-			font-weight: 400;
-			text-transform: capitalize;
-		}
-		.footer-top a:hover {
-			color: white;
-		}
-		.footer-top a {
-			margin: 0 6px 0 6px;
-		}
-	</style>
-</head>
-<body>
-	<div class="header">
-		<div class="container">
-			<img src="img/1.jpg" class="rounded-circle img-thumbnail">
-				<h1>hello<span>!</span></h1>
-					<p>My name is Eki Ahmad & I am Fullstack Developer</p>
-		</div>
-	</div>
-	<div class="content-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-12 col-sm-12 content-item">
-					<h3>ABOUT ME</h3>
-					<p>I have experience of Frontend and Backend Developer with a demonstrated history of working in the information technology and services industry.</p>
-				</div>
-				<div class="col-lg-6 col-md-12 col-sm-12 content-item">
-					<h3>CONTACT ME</h3>
-					<ul>
-						<li><span>Name : </span>Ahmad Eki Mahdavikia</li>
-						<li><span>Mail : </span>ekiahmad72@gmail.com</li>
-						<li><span>Phone : </span>083834444565</li>
-						<li><span>Address : </span>Jl. Tlogowaru 62, Kedungkandang, Malang</li>
-						<li><span>Gender : </span>Male</li>
-						<li><span>LinkedIn : </span><a href="https://www.linkedin.com/in/eki-ahmad-5b37b8134" style="text-decoration: none;" target="_blank">eki-ahmad</a></li>
-						<li><span>Github : </span><a href="https://github.com/EkiAhmad" style="text-decoration: none;" target="_blank">EkiAhmad</a></li>
-					</ul>
-				</div>
-				<!-- <div class="col-lg-6 col-md-12 col-sm-12 content-item">
-					<h3>study</h3>
-					<ul>
-						<li>SMP NEGERI 23 Malang <label>( 2011 )</label></li>
-						<li>SMK NEGERI 4 Malang -> RPL <label>( 2014 )</label></li>
-					</ul>
-				</div> -->
-				<div class="col-lg-6 col-md-12 col-sm-12 content-item">
-					<h3>MY WORK EXPERIENCE</h3>
-						<p>at PT Cendana Teknika Utama (Oct 2017 - Apr 2020)</p>
-						<ul>
-							<li>K3, PHP (Codeigniter) MySQL <label>( 2017 )</label></li>
-							<li>SIMDA, PHP (Codeigniter) MySQL <label>( 2017 )</label></li>
-							<li>PJ and MPP, PHP (Custom Native Framework) MySQL <label>( 2018 )</label></li>
-							<li>MD Pulsa, PHP (Codeigniter) MySQL <label>( 2018 )</label></li>
-							<li>Office Automation 2.0, PHP (Laravel 5.4) PostgreSQL 9.6 <label>( 2018 )</label></li>
-							<li>Hotel Garuda Indonesia, PHP (Codeigniter) MySQL <label>( 2018 )</label></li>
-							<li>Inmed, PHP (Codeigniter) MySQL <label>( 2018 )</label></li>
-							<li>Realcom, PHP (Codeigniter) MySQL, Firebase <label>( 2019 )</label></li>
-							<li>PMI, PHP (Laravel 6) PostgreSQL <label>( 2020 )</label></li>
-							<li>Sidoni, PHP (Laravel 6) PostgreSQL <label>( 2020 )</label></li>
-						</ul>
-						<p>at PT Digital Network Venture Indonesia (Aug 2020 - Dec 2020)</p>
-						<ul>
-							<li>Manna Menu - (CMS Admin, CMS Store), Frontend - (VueJs 2.5.17, Quasar 0.17.26), Backend (PHP Codeigniter), Database MySQL (September - Oktober)</li>
-							<li>Manna Pos - (CMS Admin Pos, CMS Supplier), Frontend - (VueJs 2.5.17, Quasar 0.17.26), Backend (PHP Codeigniter), Database MySQL (Oktober - Desember)</li>
-							<li>Manna Wallet - (CMS Admin), Frontend - (VueJs 2.5.17, Quasar 0.17.26), Backend (PHP Codeigniter), Database MySQL (Oktober - Desember)</li>
-						</ul>
-						<p>at Sindo Lah Pte. Ltd (February 2021 - July 2021)</p>
-						<ul>
-							<li>Sindomall.com (e-commerce), PHP (Custom Template - WoWonder), MySQL</li>
-							<li>Sindo API , PHP (Native), MySQL</li>
-							<li>Sindo.sg, PHP (Native), MySQL</li>
-						</ul>
-						<p>at PT Okejek Kreasi Indonesia (Aug 2021 - Dec 2021)</p>
-						<ul>
-							<li>Okejek Dashboard - (CMS Admin), PHP (Laravel 8.42.1), MySQL Database MySQL</li>
-							<li>Okejek API - (API Mobile), PHP (Laravel 8.42.1), Database MySQL</li>
-							<li>Okejek HQ - (CMS HQ), PHP (Laravel 8.42.1), Database MySQL</li>
-						</ul>
-						<p>at Jobseeker Company Indonesia (March 2022 - Present)</p>
-						<ul>
-							<li>jobseeker.company, PHP (Codeigniter) MySQL</li>
-							<li>jobseeker.software, PHP (Codeigniter) MySQL</li>
-							<li>jobseeker.services, PHP (Codeigniter) MySQL</li>
-							<li>jobseeker.app - (API), PHP (Laravel 8.42.1), Database MySQL</li>
-							<li>jobseeker.partners - (API), PHP (Laravel 8.42.1), Database MySQL</li>
-							<li>ATS Jobseeker Software V2 - (CMS), PHP (Laravel 8.42.1), Database MySQL</li>
-							<li>ATS Jobseeker Software V2 - (API), PHP (Laravel 8.42.1), Database MySQL</li>
-							<li>ATS Jobseeker Ranch Market V2 - (CMS), PHP (Laravel 8.42.1), Database MySQL</li>
-							<li>ATS Jobseeker Ranch Market V2 - (API), PHP (Laravel 8.42.1), Database MySQL</li>
-						</ul>
-				</div>
-				<div class="col-lg-6 col-md-12 col-sm-12 content-item">
-					<h3>SKILLS</h3>
-					<br>
-					<h4>Codeigniter</h4>
-					<div class="progress">
-						<div class="progress-bar" style="width: 85%"></div>
-					</div>
-					<h4>Laravel</h4>
-					<div class="progress">
-						<div class="progress-bar" style="width: 80%"></div>
-					</div>
-					<h4>Jquery</h4>
-					<div class="progress">
-						<div class="progress-bar" style="width: 85%"></div>
-					</div>
-					<h4>Ajax<h4>
-					<div class="progress">
-						<div class="progress-bar" style="width: 80%"></div>
-					</div>
-					<h4>Git<h4>
-					<div class="progress">
-						<div class="progress-bar" style="width: 80%"></div>
-					</div>
-					<h4>SQL<h4>
-					<div class="progress">
-						<div class="progress-bar" style="width: 85%"></div>
-					</div>
-					<h4>REST API<h4>
-					<div class="progress">
-						<div class="progress-bar" style="width: 85%"></div>
-					</div>
-					<h4>VueJs<h4>
-					<div class="progress">
-						<div class="progress-bar" style="width: 80%"></div>
-					</div>
-					<h4>Quasar<h4>
-					<div class="progress">
-						<div class="progress-bar" style="width: 80%"></div>
-					</div>
-				</div>
-				<div class="col-md-12 col-sm-12 content-items">
-					<center><h3>PORTFOLIO</h3></center>
-					<div class="row">						
-						<div class="col-lg-4 col-md-12 port-item">
-							<div class="port-grid">
-								<img src="img/real1.png" alt="news image" class="img-fluid">
-									<div class="port-title">
-										<h4>Realcom</h4>
-										<p class="mt-4">  Education Learning Apps <br> <a href="https://web-realcom.com/" target="_blank" style="text-decoration: none;">Realcom</a></p>
-									</div>
-							</div>
-						</div>
-						<!-- <div class="col-lg-4 col-md-12 port-item">
-							<div class="port-grid">
-								<img src="img/pmi2.png" alt="news image" class="img-fluid">
-									<div class="port-title">
-										<h4>PMI</h4>
-										<p class="mt-4">  CMS PMI Tangerang <br> &nbsp;</p>
-									</div>
-							</div>
-						</div> -->
-						<div class="col-lg-4 col-md-12 port-item">
-							<div class="port-grid">
-								<img src="img/sidoni1.png" alt="news image" class="img-fluid">
-									<div class="port-title">
-										<h4>Sidoni</h4>
-										<p class="mt-4"> Web Version Sidoni Mobile Apps <br> <a href="https://play.google.com/store/apps/details?id=com.pmi.tangerang&hl=in" target="_blank" style="text-decoration: none;">Playstore Sidoni</a></p>
-									</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-12 port-item">
-							<div class="port-grid">
-								<img src="img/mannamenu.png" alt="news image" class="img-fluid">
-									<div class="port-title">
-										<h4>Manna Menu</h4>
-										<p class="mt-4"> CMS Manna Menu Admin and store <br> <a href="https://manna.asia/home/manna-menu" target="_blank" style="text-decoration: none;">Dashboard Manna Menu</a></p>
-									</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-12 port-item">
-							<div class="port-grid">
-								<img src="img/mannapos.png" alt="news image" class="img-fluid">
-									<div class="port-title">
-										<h4>Manna Pos</h4>
-										<p class="mt-4"> CMS Manna Pos Admin and supplier <br> <a href="https://manna.asia/home/manna-pos" target="_blank" style="text-decoration: none;">Dashboard Manna Pos</a></p>
-									</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-12 port-item">
-							<div class="port-grid">
-								<img src="img/sindomall.com.png" alt="news image" class="img-fluid">
-									<div class="port-title">
-										<h4>SINDOMALL</h4>
-										<p class="mt-4"> ecommerce (product list) <br> <a href="https://sindomall.com" target="_blank" style="text-decoration: none;">Sindomall.com</a></p>
-									</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-12 port-item">
-							<div class="port-grid">
-								<img src="img/okejek-dashboard-2.png" alt="news image" class="img-fluid">
-									<div class="port-title">
-										<h4>Okejek</h4>
-										<p class="mt-4"> CMS Okejek <br> <a href="https://okejek.id" target="_blank" style="text-decoration: none;">Dashboard Okejek</a></p>
-									</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-12 col-sm-12 content-items">
-					<div class="google-map">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1975.3181602220184!2d112.65120682347485!3d-8.0363793126462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd627a42cd8c205%3A0x6cb1f8ebc2bf73d9!2sJl.%20Raya%20Tlogowaru%2020%2C%20Tlogowaru%2C%20Kec.%20Kedungkandang%2C%20Kota%20Malang%2C%20Jawa%20Timur%2065133!5e0!3m2!1sid!2sid!4v1592997199743!5m2!1sid!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="footer-section">
-		<div class="container">
-			<div class="footer-top">
-				<p>&copy; 2020 <span>Freakin Cool Resume.</span> All rights reserved | Design by Eki Ahmad
-			</div>
-		</div>
-	</div>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/templatemo-style.css">
 
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <nav class="nav">
+          <div class="burger">
+            <div class="burger__patty"></div>
+          </div>
 
-	<!-- jquery -->
-	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-	<!-- sweetalert2 -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.min.js"></script>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#1" class="nav__link c-blue"><img src="img/home-icon.png" alt=""></a>
+            </li>
+            <li class="nav__item">
+              <a href="#2" class="nav__link c-yellow scrolly"><img src="img/about-icon.png" alt=""></a>
+            </li>
+            <li class="nav__item">
+              <a href="#3" class="nav__link c-red"><img src="img/projects-icon.png" alt=""></a>
+            </li>
+            <li class="nav__item">
+              <a href="#4" class="nav__link c-green"><img src="img/contact-icon.png" alt=""></a>
+            </li>
+          </ul>
+        </nav>
 
-	<!-- bootstrap -->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>	
+        <section class="panel b-blue" id="1">
+          <article class="panel__wrapper">
+            <div class="panel__content">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="home-content">
+                      <div class="home-heading">
+                        <h1><em>Dev</em> Eki Ahmad</h1>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="home-box-content">
+                            <div class="left-text">
+                              <h4>Hi I'm <em>Eki Ahmad</em></h4>
+                              <p>I'm a Fullstack Developer with over 5 years of experience, currently focusing on backend development. If you want to work with me, contact me below. Thank you.</p>
+                              <div class="primary-button">
+                                <a href="#2">Discover More</a>
+                              </div>
+                            </div>
+                            <div class="right-image">
+                              <img src="img/1.jpg" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+        <section class="panel b-yellow" id="2">
+          <article class="panel__wrapper">
+            <div class="panel__content">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="about-content">
+                      <div class="heading">
+                        <h4>About us</h4>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="about-box-content">
+                            <img src="img/cf3.jpg" alt="">
+                          </div>
+                        </div>
+                        <div class="col-md-7 col-md-offset-5">
+                          <div class="about-box-text">
+                            <p>Over the years, I've built and maintained scalable, secure, and high-performance web applications using technologies like Laravel, Codeigniter, Node.js, Express, MongoDB, and MySQL. My foundation in frontend development allows me to better collaborate across teams and deliver seamless user experiences, while my backend focus drives my passion for clean architecture, optimized APIs, and reliable system design. I enjoy solving complex problems, improving performance, and turning ideas into fully functional products that make an impact.</p>
+                            <div class="primary-button">
+                              <a href="#3">Discover More</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+        <section class="panel b-red" id="3">
+          <article class="panel__wrapper">
+            <div class="panel__content">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="projects-content">
+                      <div class="heading">
+                        <h4>Recent Projects</h4>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="owl-carousel owl-theme projects-container">
+                            <div>
+                              <div class="project-item">
+                                <a href="img/real1.png" data-lightbox="image-1"><img src="img/real1.png" alt=""></a>
+                                <div class="text-content">
+                                  <h4>Realcom</h4>
+                                  <p>Education Learning Apps</p>
+                                  <div class="primary-button">
+                                    <a href="#">Discover More</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="project-item">
+                                <a href="img/sidoni1.png" data-lightbox="image-1"><img src="img/sidoni1.png" alt=""></a>
+                                <div class="text-content">
+                                  <h4>Sidoni</h4>
+                                  <p>Web Version of Sidoni Mobile Apps</p>
+                                  <div class="primary-button">
+                                    <a href="#">Discover More</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="project-item">
+                                <a href="img/mannapos.png" data-lightbox="image-1"><img src="img/mannapos.png" alt=""></a>
+                                <div class="text-content">
+                                  <h4>Manna Pos</h4>
+                                  <p>CMS Manna Pos Admin and supplier</p>
+                                  <div class="primary-button">
+                                    <a href="#">Discover More</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="project-item">
+                                <a href="img/mannamenu.png" data-lightbox="image-1"><img src="img/mannamenu.png" alt=""></a>
+                                <div class="text-content">
+                                  <h4>Manna Menu</h4>
+                                  <p>CMS Manna Menu Admin and store</p>
+                                  <div class="primary-button">
+                                    <a href="#">Discover More</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="project-item">
+                                <a href="img/sindomall.com.png" data-lightbox="image-1"><img src="img/sindomall.com.png" alt=""></a>
+                                <div class="text-content">
+                                  <h4>SINDOMALL</h4>
+                                  <p>Lecommerce (product list)</p>
+                                  <div class="primary-button">
+                                    <a href="#">Discover More</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="project-item">
+                                <a href="img/okejek-dashboard-2.png" data-lightbox="image-1"><img src="img/okejek-dashboard-2.png" alt=""></a>
+                                <div class="text-content">
+                                  <h4>Okejek</h4>
+                                  <p>Web Application and Backend of Okejek</p>
+                                  <div class="primary-button">
+                                    <a href="#">Discover More</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+        <section class="panel b-green" id="4">
+          <article class="panel__wrapper">
+            <div class="panel__content">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="contact-content">
+                      <div class="heading">
+                        <h4>Contact me</h4>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-8">
+                          <div class="contat-form">
+                            <form id="contact" action="" method="post">
+                              <fieldset>
+                                <input name="name" type="text" class="form-control" id="name" placeholder="Your Name" disabled="disabled">
+                              </fieldset>
+                              <fieldset>
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" disabled="disabled">
+                              </fieldset>
+                              <fieldset>
+                                <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message" disabled="disabled"></textarea>
+                              </fieldset>
+                              <fieldset>
+                                <button type="submit" id="form-submit" class="btn" disabled>Send Message</button>
+                              </fieldset>
+                            </form>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="more-info">
+                            <ul>
+                              <li><span>Mail : </span>ekiahmad72@gmail.com</li>
+                              <li><span>Phone : </span>083834444565</li>
+                              <li><span>LinkedIn : </span><a style="color: black;" href="https://www.linkedin.com/in/eki-ahmad-5b37b8134" style="text-decoration: none;" target="_blank">eki-ahmad</a></li>
+                              <li><span>Github : </span><a style="color: black;" href="https://github.com/EkiAhmad" style="text-decoration: none;" target="_blank">EkiAhmad</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="footer">
+                      <p>Copyright &copy; 2025 SH Corp 
+                      <!-- | Design: TemplateMo</p> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+      
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
+        <script src="js/vendor/bootstrap.min.js"></script>
 
-</body>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
 </html>
